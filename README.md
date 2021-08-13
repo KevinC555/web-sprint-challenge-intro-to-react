@@ -81,6 +81,17 @@ After finishing your required elements, you can push your work further. These go
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. What is React JS and what problems does it solve? Support your answer with concepts introduced in class and from your personal research on the web.
+
+I think React JS solves the problem of needing to add a whole bunch of functionality and design to a bunch of different data types and strcutures. I think it's widley used for adding and impleneting html and css in the same page, combing everything making it easier to fix when something breaks.
+
 1. Describe component state.
+
+The state is an instance or existence(time and palce) of where that component is. It kind of describes all the details of said component, as Casey talked about it in class it was like the health, and damage of a character in a game. It's more derived from gaming languages.
+
 1. Describe props.
+
+Props are literally just properties of a component. We can pass in props for short that will allow us to give a component it's properties and meanings. Suich as the characters from this sprint challenge. The properties we could've passed are anything in the dataset. That could've been name, birthyear, ship, haircolor etc. 
+
 1. What are side effects, and how do you sync effects in a React component to changes of certain state or props?
+
+You can sync effects by passing in the axios.get request inside of the useEffect instead of passing in a normal axios.get request that isn't in one. Effects are for setting side-effects. We can do this when manipulating the DOM, using any kind of functions that will manipulate the page with an onclick etc.
