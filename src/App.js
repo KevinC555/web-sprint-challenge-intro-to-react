@@ -21,7 +21,7 @@ export default function App() {
 	return (
 		<div className="App">
 			<h1 className="Header">Characters</h1>
-			{characters.length ? <Character character={characters[0]} /> : null}
+			{characters.length ? characters.map((character) => <Character character={character} />) : null}
 		</div>
 	);
 }
